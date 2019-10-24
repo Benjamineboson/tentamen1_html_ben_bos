@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Benjamin Boson">
+    <meta name="description" content="tentamen1_ec_utbildningar">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>tentamen1_html_tre_ben_bos</title>
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav id="menu">
+        <a href="https://github.com" target="_blank">GitHub</a>
+        <a href="https://getbootstrap.com" target="_blank">Bootstrap</a>
+        <a href="https://www.w3schools.com" target="_blank">W3Schools</a>
+    </nav>
+    <table class="table" id="table">
+        <tr>
+            <th>Valuta</th>
+            <th>Land</th>
+            <th>Språk</th>
+        </tr>
+        <tr>
+            <td>SEK</td>
+            <td>Sverige</td>
+            <td>Svenska</td>
+        </tr>
+        <tr>
+            <td>DKK</td>
+            <td>Danmark</td>
+            <td>Danska</td>
+        </tr>
+        <tr>
+            <td>NOK</td>
+            <td>Norge</td>
+            <td>Norska</td>
+        </tr>
+    </table>
+
+    <div id="uppgift-4">
+        <div id="above">
+            <h1>Above</h1>
+        </div>
+        <div id="under">
+            <h1>Under</h1>
+        </div>
+    </div>
+
+    <div class="btn-group" role="group" aria-label="Basic example" id="uppgift-5">
+        <button type="button" class="btn btn-primary">First</button>
+        <button type="button" class="btn btn-primary">Second</button>
+        <button type="button" class="btn btn-primary">Third</button>
+        <button type="button" class="btn btn-primary">Fourth</button>
+    </div>
+
+    <ul id="uppgift-5" class="list-group">
+        <li class="list-group-item active">Active item</li>
+        <li class="list-group-item">Item</li>
+        <li class="list-group-item">Item</li>
+        <li class="list-group-item">Item</li>
+    </ul>
+
+    <div id="uppgift-6">
+        <h2>SEO</h2>
+        <ol>
+            <li>Metta taggar med relevanta nyckelord, samt en beskrivning som innehåller nyckelorden.</li>
+            <li>Semantisk korrekt html/css hjälper din sida att ranka högre.</li>
+            <li>Nämna relevanta nyckelord i rubriker samt eventuella paragrafer. Bilder/Annan media gör din sida mer attraktiv.</li>
+            <li>Se till så att eventuella länkar till andra websidor på din webplats är lätta att hitta, för att underlätta för google.</li>
+            <li>Familjevänlig content på din webplats.</li>
+            <li>En titel eller beskrivning som lockar klick.</li>
+        </ol>
+    </div>
+
+    <div id="uppgift-7">
+        <h2>SEO och nyckelord</h2>
+        <p>För att ranka högre på Google är det viktigt att dina nyckelord faktist är ord som människor söker efter.
+           Ett bra sätt att hitta information om vilka ord som söks på är att titta på Google trending.
+           Där finns information om vilka sökord som är populära för stunden.
+           Det är även viktigt att inte använda sig av samma ord som alla andra, då är risken att du konkurerar med många andra hemsidor med samma nyckelord.</p>
+    </div>
+
+    <div id="uppgift-9">
+        <h2>Responsiv webbdesign</h2>
+        <p>Responsiv webbdesign är i dagsläget väldigt viktigt då vi surfar på nätet med en mängd olika objekt. 
+           En webplats ska se lika bra ut på en smartphone som på en stor datorskärm. Detta görs på ett par olika sätt. 
+           <br><br>Ett sätt är den såkallade mobile-first aproachen, det innebär att man först utvecklar webplatsen till mobiler och utvecklar den sedan vidare.
+           Detta eftersom att majoriteten av surfning sker idag på smartphones. Detta görs med hjälp av tex media queries. 
+           Dessa sätter en gräns i pixlar, som när den korsas ändrar innehållet på websidan för att passa den relevanta skärmen.
+           Det går även att att anpassa sidan med hjälp utan flex-boxes eller % när man definierar bredden på element.</p>
+    </div>
+
+    <div id="uppgift-10">
+        <h2>Review</h2>
+        <p>1. De saknas en html tag. Där språket även definieras (Ex. html lang="en")<br>
+           2. Style taggen är inte fel, men bör skrivas i en separat style.css fil och sedan importeras. På så sätt kan man lättare skilja på HTML och CSS.<br>
+           3. Bör tilläggas: Meta tag för author,description och charset. Detta för att ge mer information om din webplats.<br>
+           4. Diven med id: "nav", borde istället vara en nav tag eftersom den innehåller länkar. Då är den semantiskt korrekt.<br>
+           5. img i sektionen med klass: "intro" bör inte har sin bredd/höjd stylin "in-line" utan bör istället definieras i en separat style.css fil. Detta för att lättare skilja på HTML och CSS.<br> 
+           6. form taggen saknar en submit knapp. Detta behövs för att skicka vidare den ifyllda informationen till en backend.<br>
+           7. html taggen saknas även på slutet.</p>
+        </div>
+</body>
+</html>

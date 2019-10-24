@@ -1,0 +1,76 @@
+#menu{
+    background: black;
+    padding: 5px;
+}
+#menu a{
+    color: white;
+} 
+#table{
+    margin-top: 10px;
+    width: 30%;
+}
+.table{
+    border: 1px solid black;
+    font-size: 2em;
+}
+.table td{
+    border: 1px solid black;
+}
+#uppgift-4{
+    margin-top: 10px;
+    background: rgb(151, 151, 255);
+    height: 500px;
+    width: 700px;
+}
+#above{
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 50px;
+    width: 300px;
+    height: 150px;
+    background: rgb(90, 218, 90);
+    z-index: 2;
+}
+#above h1{
+    margin: 8px;
+}
+#under{
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 200px;
+    width: 400px;
+    height: 130px;
+    background: rgb(243, 134, 152);
+    z-index: 1;
+    text-align: right;
+}
+#under h1{
+    margin: 8px;
+}
+#uppgift-5{
+    margin-top: 10px;
+    width: 250px;
+}
+#uppgift-6{  
+    margin-top: 10px;
+}
+#uppgift-7 p{
+   margin: 10px;
+}
+#uppgift-9 p{
+    margin: 10px;
+}
+#uppgift-10 p{
+    margin: 10px;
+}
+
+@media only screen and (max-width: 599.5px){
+    #menu{
+        background: white;
+        border: 2px solid black;
+    }
+    #menu a{
+        display: block;
+        color: black;
+    }
+}
